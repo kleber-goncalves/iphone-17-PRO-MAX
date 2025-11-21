@@ -1,4 +1,7 @@
 import { Fade, Zoom } from "react-awesome-reveal";
+import titaniumDesignImg from "../assets/img/titanium-design.jpg";
+import iosFeaturesImg from "../assets/img/ios-features.jpg";
+import chipA18ProImg from "../assets/img/chip-a18-pro.jpg";
 
 function Highlights() {
     const specs_hls = [
@@ -78,7 +81,7 @@ function Highlights() {
                             <div className="overflow-hidden rounded-2xl mb-2">
                                 <img
                                     className="w-full rounded-2xl "
-                                    src="../../src/assets/img/titanium-design.jpg"
+                                    src={titaniumDesignImg}
                                     alt="iPhone-titanio"
                                 />
                             </div>
@@ -105,7 +108,7 @@ function Highlights() {
                             <div className="overflow-hidden rounded-2xl mb-2">
                                 <img
                                     className="w-full rounded-2xl"
-                                    src="../../src/assets/img/ios-features.jpg"
+                                    src={iosFeaturesImg}
                                     alt="ios 2026"
                                 ></img>
                             </div>
@@ -159,7 +162,7 @@ function Highlights() {
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/50 order-1 md:order-2">
                             <img
                                 className=" w-full rounded-2xl block"
-                                src="../../src/assets/img/chip-a18-pro.jpg"
+                                src={chipA18ProImg}
                                 alt="chip a18 pro"
                             ></img>
                         </div>
