@@ -1,24 +1,28 @@
 import { useState } from "react";
 import { Fade, Zoom } from "react-awesome-reveal";
 
+import blueImg from "/src/assets/img/iphone-blue.jpg";
+import silverImg from "/src/assets/img/iphone-silver.jpg";
+import orangeImg from "/src/assets/img/iphone-orange.jpg";
+
 function Colors() {
     const colors = [
         {
             id: "blue",
             name: "Titânio Azul",
-            image: "/src/assets/img/iphone-blue.jpg",
+            image: blueImg,
             colorClass: "bg-[#2b3145]",
         },
         {
             id: "silver",
             name: "Titânio Natural",
-            image: "/src/assets/img/iphone-silver.jpg",
+            image: silverImg,
             colorClass: "bg-gray-300",
         },
         {
             id: "orange",
             name: "Titânio Laranja",
-            image: "/src/assets/img/iphone-orange.jpg",
+            image: orangeImg,
             colorClass: "bg-orange-500",
         },
     ];
